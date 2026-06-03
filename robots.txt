@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Block scrapers from hammering full-resolution images
+Disallow: /images/hero-residential.jpg
+Disallow: /images/hero-commercial.jpg
+Disallow: /images/hero-exteriors.jpg
+Disallow: /images/hero-detail.jpg
+
+Sitemap: https://www.johnbentley.ca/sitemap.xml
