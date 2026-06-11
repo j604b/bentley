@@ -8,19 +8,19 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://www.johnbentley.ca/images/hero-residential.jpg</image:loc>
+      <image:loc>https://www.johnbentley.ca/images/hero-residential.webp</image:loc>
       <image:caption>Residential interior photography — Vancouver, BC</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://www.johnbentley.ca/images/hero-commercial.jpg</image:loc>
+      <image:loc>https://www.johnbentley.ca/images/hero-commercial.webp</image:loc>
       <image:caption>Commercial and industrial photography — Vancouver, BC</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://www.johnbentley.ca/images/hero-exteriors.jpg</image:loc>
+      <image:loc>https://www.johnbentley.ca/images/hero-exteriors.webp</image:loc>
       <image:caption>Architectural exteriors photography — Vancouver, BC</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://www.johnbentley.ca/images/hero-detail.jpg</image:loc>
+      <image:loc>https://www.johnbentley.ca/images/hero-detail.webp</image:loc>
       <image:caption>Architectural detail photography — Vancouver, BC</image:caption>
     </image:image>
   </url>
@@ -31,7 +31,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://www.johnbentley.ca/images/hero-residential.jpg</image:loc>
+      <image:loc>https://www.johnbentley.ca/images/hero-residential.webp</image:loc>
     </image:image>
   </url>
 
@@ -41,7 +41,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://www.johnbentley.ca/images/hero-commercial.jpg</image:loc>
+      <image:loc>https://www.johnbentley.ca/images/hero-commercial.webp</image:loc>
     </image:image>
   </url>
 
@@ -51,7 +51,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://www.johnbentley.ca/images/hero-exteriors.jpg</image:loc>
+      <image:loc>https://www.johnbentley.ca/images/hero-exteriors.webp</image:loc>
     </image:image>
   </url>
 
@@ -61,7 +61,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://www.johnbentley.ca/images/hero-detail.jpg</image:loc>
+      <image:loc>https://www.johnbentley.ca/images/hero-detail.webp</image:loc>
     </image:image>
   </url>
 

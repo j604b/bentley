@@ -4,20 +4,15 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- ─── Google Search Console verification ───────────────────────────── -->
-  <!-- Replace REPLACE_WITH_GSC_VERIFICATION_CODE with the code from
-       https://search.google.com/search-console (Settings → Ownership verification → HTML tag) -->
-  <meta name="google-site-verification" content="REPLACE_WITH_GSC_VERIFICATION_CODE" />
-
   <!-- ─── Google Analytics 4 ──────────────────────────────────────────── -->
-  <!-- Replace G-XXXXXXXXXX (both occurrences) with your GA4 Measurement ID
+  <!-- Replace G-3BHRDMXD27 (both occurrences) with your GA4 Measurement ID
        from https://analytics.google.com (Admin → Data Streams → Web) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3BHRDMXD27"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-XXXXXXXXXX');
+    gtag('config', 'G-3BHRDMXD27');
   </script>
   <title>John Bentley Architectural Photography — Vancouver, BC</title>
   <meta name="description" content="Premium architectural and real estate photography in Vancouver, BC. Cinematic, high-impact images for builders, developers, realtors, and interior designers." />
@@ -25,7 +20,7 @@
   <meta property="og:title" content="John Bentley Architectural Photography" />
   <meta property="og:description" content="Cinematic architectural and real estate photography for Vancouver's most demanding builders, developers, and realtors." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="images/hero-residential.jpg" />
+  <meta property="og:image" content="images/hero-residential.webp" />
   <meta property="og:url" content="https://www.johnbentley.ca/" />
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="canonical" href="https://www.johnbentley.ca/" />
@@ -34,11 +29,11 @@
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png">
   <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>tailwind.config = { corePlugins: { preflight: false } };</script>
+    <!-- Self-hosted font preloads — two most-used weights -->
+  <link rel="preload" href="fonts/montserrat-latin-200.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/inter-latin-300.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/site.css" />
 
   <script type="application/ld+json">
@@ -111,10 +106,10 @@
 <!-- Hero -->
 <section class="hero" aria-label="Featured work">
   <div class="hero-bg" aria-hidden="true">
-    <div class="hero-slide active" style="background-image: url('images/hero-residential.jpg');"></div>
-    <div class="hero-slide" style="background-image: url('images/hero-commercial.jpg');"></div>
-    <div class="hero-slide" style="background-image: url('images/hero-exteriors.jpg');"></div>
-    <div class="hero-slide" style="background-image: url('images/hero-detail.jpg');"></div>
+    <div class="hero-slide active" style="background-image: url('images/hero-residential.webp');"></div>
+    <div class="hero-slide" style="background-image: url('images/hero-commercial.webp');"></div>
+    <div class="hero-slide" style="background-image: url('images/hero-exteriors.webp');"></div>
+    <div class="hero-slide" style="background-image: url('images/hero-detail.webp');"></div>
     <div class="vignette"></div>
     <div class="hero-overlay"></div>
   </div>
@@ -183,7 +178,7 @@
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
       <a href="residential.html" class="portfolio-tile reveal" data-delay="100">
-        <div class="portfolio-tile-img" style="background-image:url('images/hero-residential-thumb.jpg');"></div>
+        <div class="portfolio-tile-img" style="background-image:url('images/hero-residential.webp');"></div>
         <div class="portfolio-tile-overlay"></div>
         <div class="portfolio-tile-content">
           <div class="portfolio-tile-num">01</div>
@@ -193,7 +188,7 @@
         </div>
       </a>
       <a href="commercial.html" class="portfolio-tile reveal" data-delay="200">
-        <div class="portfolio-tile-img" style="background-image:url('images/hero-commercial-thumb.jpg');"></div>
+        <div class="portfolio-tile-img" style="background-image:url('images/hero-commercial.webp');"></div>
         <div class="portfolio-tile-overlay"></div>
         <div class="portfolio-tile-content">
           <div class="portfolio-tile-num">02</div>
@@ -203,7 +198,7 @@
         </div>
       </a>
       <a href="exteriors.html" class="portfolio-tile reveal" data-delay="300">
-        <div class="portfolio-tile-img" style="background-image:url('images/hero-exteriors-thumb.jpg');"></div>
+        <div class="portfolio-tile-img" style="background-image:url('images/hero-exteriors.webp');"></div>
         <div class="portfolio-tile-overlay"></div>
         <div class="portfolio-tile-content">
           <div class="portfolio-tile-num">03</div>
@@ -213,7 +208,7 @@
         </div>
       </a>
       <a href="detail.html" class="portfolio-tile reveal" data-delay="400">
-        <div class="portfolio-tile-img" style="background-image:url('images/hero-detail-thumb.jpg');"></div>
+        <div class="portfolio-tile-img" style="background-image:url('images/hero-detail.webp');"></div>
         <div class="portfolio-tile-overlay"></div>
         <div class="portfolio-tile-content">
           <div class="portfolio-tile-num">04</div>

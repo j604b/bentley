@@ -4,20 +4,15 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- ─── Google Search Console verification ───────────────────────────── -->
-  <!-- Replace REPLACE_WITH_GSC_VERIFICATION_CODE with the code from
-       https://search.google.com/search-console (Settings → Ownership verification → HTML tag) -->
-  <meta name="google-site-verification" content="REPLACE_WITH_GSC_VERIFICATION_CODE" />
-
   <!-- ─── Google Analytics 4 ──────────────────────────────────────────── -->
-  <!-- Replace G-XXXXXXXXXX (both occurrences) with your GA4 Measurement ID
+  <!-- Replace G-3BHRDMXD27 (both occurrences) with your GA4 Measurement ID
        from https://analytics.google.com (Admin → Data Streams → Web) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3BHRDMXD27"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-XXXXXXXXXX');
+    gtag('config', 'G-3BHRDMXD27');
   </script>
   <title>Contact — John Bentley Architectural Photography</title>
   <meta name="description" content="Get in touch with John Bentley Architectural Photography in Vancouver, BC. Email info@johnbentley.ca or call 604.765.1843 to book a consultation." />
@@ -25,18 +20,18 @@
   <meta property="og:title" content="Contact — John Bentley Architectural Photography" />
   <meta property="og:description" content="Get in touch with John Bentley Architectural Photography in Vancouver, BC. Email info@johnbentley.ca or call 604.765.1843 to book a consultation." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="images/hero-exteriors.jpg" />
+  <meta property="og:image" content="images/hero-exteriors.webp" />
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="canonical" href="https://www.johnbentley.ca/contact" />
   <link rel="icon" href="images/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png">
   <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>tailwind.config = { corePlugins: { preflight: false } };</script>
+    <!-- Self-hosted font preloads — two most-used weights -->
+  <link rel="preload" href="fonts/montserrat-latin-200.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/inter-latin-300.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/site.css" />
 </head>
 <body>
@@ -85,7 +80,7 @@
 
 <section class="page-hero" style="height: 50vh; min-height: 360px;">
   <div class="hero-bg" aria-hidden="true">
-    <div class="hero-bg-img" data-parallax="0.25" style="background-image:url('images/hero-exteriors.jpg');"></div>
+    <div class="hero-bg-img" data-parallax="0.25" style="background-image:url('images/hero-exteriors.webp');"></div>
     <div class="vignette"></div>
     <div class="hero-overlay"></div>
   </div>
@@ -132,7 +127,7 @@
       </div>
 
       <div class="lg:col-span-7 reveal" data-delay="100">
-        <form data-contact class="grid grid-cols-1 md:grid-cols-2 gap-6" novalidate>
+        <form data-contact action="https://formspree.io/f/maqzbnwb" method="POST" class="grid grid-cols-1 md:grid-cols-2 gap-6" novalidate>
           <div class="field-group">
             <label class="field-label" for="fname">First Name</label>
             <input class="field-input" id="fname" name="fname" type="text" placeholder="Jane" required />
