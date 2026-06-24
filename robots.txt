@@ -7,4 +7,4 @@ Disallow: /images/hero-commercial.jpg
 Disallow: /images/hero-exteriors.jpg
 Disallow: /images/hero-detail.jpg
 
-Sitemap: https://www.johnbentley.ca/sitemap.xml
+Sitemap: https://johnbentley.ca/sitemap.xml

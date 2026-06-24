@@ -6,17 +6,17 @@ John Bentley is a Vancouver-based photographer with 20+ years of experience phot
 
 ## Studio
 
-- [Home](https://www.johnbentley.ca/): Overview, hero portfolio, client list, and selected work.
-- [About](https://www.johnbentley.ca/about.html): John's background, philosophy, and studio approach.
-- [Services](https://www.johnbentley.ca/services.html): Three photography disciplines (Residential, Commercial, Exteriors), the booking-to-delivery process, and Marketing Support Services.
-- [Contact](https://www.johnbentley.ca/contact.html): Email, phone, studio address, service area, and a project inquiry form.
+- [Home](https://johnbentley.ca/): Overview, hero portfolio, client list, and selected work.
+- [About](https://johnbentley.ca/about.html): John's background, philosophy, and studio approach.
+- [Services](https://johnbentley.ca/services.html): Three photography disciplines (Residential, Commercial, Exteriors), the booking-to-delivery process, and Marketing Support Services.
+- [Contact](https://johnbentley.ca/contact.html): Email, phone, studio address, service area, and a project inquiry form.
 
 ## Portfolio
 
-- [Residential Gallery](https://www.johnbentley.ca/residential.html): MLS listings, luxury estates, presale suites, twilight sessions.
-- [Commercial Gallery](https://www.johnbentley.ca/commercial.html): Office, retail, hospitality, industrial, and new-development marketing.
-- [Exteriors Gallery](https://www.johnbentley.ca/exteriors.html): Architectural exteriors, aerial and drone, dusk and twilight, neighbourhood context.
-- [Detail Gallery](https://www.johnbentley.ca/detail.html): Material, finishes, light studies, and craftsmanship close-ups.
+- [Residential Gallery](https://johnbentley.ca/residential.html): MLS listings, luxury estates, presale suites, twilight sessions.
+- [Commercial Gallery](https://johnbentley.ca/commercial.html): Office, retail, hospitality, industrial, and new-development marketing.
+- [Exteriors Gallery](https://johnbentley.ca/exteriors.html): Architectural exteriors, aerial and drone, dusk and twilight, neighbourhood context.
+- [Detail Gallery](https://johnbentley.ca/detail.html): Material, finishes, light studies, and craftsmanship close-ups.
 
 ## Service Area
 
@@ -31,5 +31,5 @@ Vancouver, BC and the Greater Metro Area, including the North Shore, Burnaby, Ri
 
 ## Optional
 
-- [Sitemap](https://www.johnbentley.ca/sitemap.xml): Full URL list with image references.
-- [Robots](https://www.johnbentley.ca/robots.txt): Crawler policy.
+- [Sitemap](https://johnbentley.ca/sitemap.xml): Full URL list with image references.
+- [Robots](https://johnbentley.ca/robots.txt): Crawler policy.
